@@ -20,7 +20,7 @@ public class Loginpage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-		
+	//Object Repository
 	@FindBy(name="username") WebElement Username;
 	@FindBy(name="password") WebElement Password;
 	@FindBy(xpath="//button[@type='submit']") WebElement Login_Button;
