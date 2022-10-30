@@ -18,12 +18,10 @@ public class TestBase extends BrowserFactory{
 	
 @BeforeMethod
 public void Start_Test() {
-Open_Browser("Chrome");
-driver.manage().window().maximize();
-//driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
-
-driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    Open_Browser("Chrome");
+    driver.manage().window().maximize();
+    driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 }
 
 

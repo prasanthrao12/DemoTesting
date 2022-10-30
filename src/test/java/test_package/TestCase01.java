@@ -4,30 +4,37 @@ package test_package;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import project_Pages.HomePages;
 import project_Pages.Loginpage;
 
 
 
 public class TestCase01 extends TestBase{
 
-	
+	//Loginpage Login=new Loginpage(driver);
+	//HomePages Home=new HomePages(driver);
 
 
-	@Test
+	@Test(priority=0)
 	public void Test01() 
 	{
-		driver.getTitle();
-		System.out.println(driver.getTitle());
 		Loginpage Login=new Loginpage(driver);
+		Login.LoginTest("Admin","admin123");
 		
-		Login.Send_username("Admin");
-		Reporter.log("===User Entered Username===",true);
 		
-		Login.Send_Password("admin123");
-		Reporter.log("===User Entered password===",true);
 		
-		Login.Click_On_LoginButton();
-		Reporter.log("===User clicked login button===",true);
+	}
+	
+	@Test(priority=1)
+	public void Test02() {
+		Loginpage Login=new Loginpage(driver);
+		Login.LoginTest("Admin","admin123");
+		
+		HomePages Home=new HomePages(driver);
+		
+		Home.click_on_usernamelabel();
+		Home.click_on_LogOut_Button();
+		
 		
 	}
 
