@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[===User Entered Username===]]>
+    </line>
+    <line>
+      <![CDATA[===User Entered password===]]>
+    </line>
+    <line>
+      <![CDATA[===User clicked login button===]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-10-26T23:46:32 IST" name="Default suite" finished-at="2022-10-26T23:47:38 IST" duration-ms="66731">
+  <suite started-at="2022-10-30T22:47:18 IST" name="Default suite" finished-at="2022-10-30T22:47:31 IST" duration-ms="12400">
     <groups>
     </groups>
-    <test started-at="2022-10-26T23:46:32 IST" name="Default test" finished-at="2022-10-26T23:47:38 IST" duration-ms="66731">
+    <test started-at="2022-10-30T22:47:18 IST" name="Default test" finished-at="2022-10-30T22:47:31 IST" duration-ms="12400">
       <class name="test_package.TestCase01">
-        <test-method is-config="true" signature="Start_Test()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-26T23:46:32 IST" name="Start_Test" finished-at="2022-10-26T23:47:29 IST" duration-ms="57481" status="PASS">
+        <test-method is-config="true" signature="Start_Test()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-30T22:47:18 IST" name="Start_Test" finished-at="2022-10-30T22:47:27 IST" duration-ms="8357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start_Test -->
-        <test-method signature="Test01()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-26T23:47:29 IST" name="Test01" finished-at="2022-10-26T23:47:35 IST" duration-ms="6015" status="PASS">
+        <test-method signature="Test01()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-30T22:47:27 IST" name="Test01" finished-at="2022-10-30T22:47:27 IST" duration-ms="776" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[===User Entered Username===]]>
+            </line>
+            <line>
+              <![CDATA[===User Entered password===]]>
+            </line>
+            <line>
+              <![CDATA[===User clicked login button===]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Test01 -->
-        <test-method is-config="true" signature="End_Test()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-26T23:47:35 IST" name="End_Test" finished-at="2022-10-26T23:47:38 IST" duration-ms="3192" status="PASS">
+        <test-method is-config="true" signature="End_Test()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-30T22:47:27 IST" name="End_Test" finished-at="2022-10-30T22:47:31 IST" duration-ms="3231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- End_Test -->
