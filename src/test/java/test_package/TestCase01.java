@@ -1,10 +1,12 @@
 package test_package;
 
-import org.openqa.selenium.WebDriver;
+
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import project_Pages.homepage;
+import project_Pages.Loginpage;
+
+
 
 public class TestCase01 extends TestBase{
 
@@ -16,16 +18,16 @@ public class TestCase01 extends TestBase{
 	{
 		driver.getTitle();
 		System.out.println(driver.getTitle());
-		homepage home=new homepage(driver);
+		Loginpage Login=new Loginpage(driver);
 		
-		home.Send_username("Admin");
-		Reporter.log("===User Entered Username===");
+		Login.Send_username("Admin");
+		Reporter.log("===User Entered Username===",true);
 		
-		home.Send_Password("admin123");
-		Reporter.log("===User Entered password===");
+		Login.Send_Password("admin123");
+		Reporter.log("===User Entered password===",true);
 		
-		home.Click_On_LoginButton();
-		Reporter.log("===User clicked login button===");
+		Login.Click_On_LoginButton();
+		Reporter.log("===User clicked login button===",true);
 		
 	}
 

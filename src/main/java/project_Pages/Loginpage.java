@@ -11,12 +11,12 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class homepage {
+public class Loginpage {
 
 	
 	
 	WebDriver driver;
-	public homepage(WebDriver driver) {
+	public Loginpage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}

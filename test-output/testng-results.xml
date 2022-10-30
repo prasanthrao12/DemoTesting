@@ -11,16 +11,16 @@
       <![CDATA[===User clicked login button===]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-10-30T22:47:18 IST" name="Default suite" finished-at="2022-10-30T22:47:31 IST" duration-ms="12400">
+  <suite started-at="2022-10-30T22:54:26 IST" name="Default suite" finished-at="2022-10-30T22:54:36 IST" duration-ms="9452">
     <groups>
     </groups>
-    <test started-at="2022-10-30T22:47:18 IST" name="Default test" finished-at="2022-10-30T22:47:31 IST" duration-ms="12400">
+    <test started-at="2022-10-30T22:54:26 IST" name="Default test" finished-at="2022-10-30T22:54:36 IST" duration-ms="9452">
       <class name="test_package.TestCase01">
-        <test-method is-config="true" signature="Start_Test()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-30T22:47:18 IST" name="Start_Test" finished-at="2022-10-30T22:47:27 IST" duration-ms="8357" status="PASS">
+        <test-method is-config="true" signature="Start_Test()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-30T22:54:26 IST" name="Start_Test" finished-at="2022-10-30T22:54:32 IST" duration-ms="5415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start_Test -->
-        <test-method signature="Test01()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-30T22:47:27 IST" name="Test01" finished-at="2022-10-30T22:47:27 IST" duration-ms="776" status="PASS">
+        <test-method signature="Test01()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-30T22:54:32 IST" name="Test01" finished-at="2022-10-30T22:54:32 IST" duration-ms="794" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[===User Entered Username===]]>
@@ -33,7 +33,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test01 -->
-        <test-method is-config="true" signature="End_Test()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-30T22:47:27 IST" name="End_Test" finished-at="2022-10-30T22:47:31 IST" duration-ms="3231" status="PASS">
+        <test-method is-config="true" signature="End_Test()[pri:0, instance:test_package.TestCase01@1ab3a8c8]" started-at="2022-10-30T22:54:32 IST" name="End_Test" finished-at="2022-10-30T22:54:36 IST" duration-ms="3206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- End_Test -->
