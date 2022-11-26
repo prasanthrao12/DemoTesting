@@ -11,8 +11,7 @@ import project_Pages.Loginpage;
 
 public class TestCase01 extends TestBase{
 
-	//Loginpage Login=new Loginpage(driver);
-	//HomePages Home=new HomePages(driver);
+	
 
 
 	@Test(priority=0)

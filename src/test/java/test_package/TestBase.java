@@ -4,15 +4,17 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import project_Pages.HomePages;
+import project_Pages.Loginpage;
 import project_utils.BrowserFactory;
 
 public class TestBase extends BrowserFactory{
-	
 	
 	
 	
@@ -22,6 +24,8 @@ public void Start_Test() {
     driver.manage().window().maximize();
     driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+    
+    Reporter.log("===USer Started Test===",true);
 }
 
 

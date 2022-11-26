@@ -5,7 +5,6 @@
     <classes>
       <class name="test_package.TestCase01">
         <methods>
-          <include name="Test02"/>
           <include name="Test01"/>
           <include name="Start_Test"/>
           <include name="End_Test"/>
