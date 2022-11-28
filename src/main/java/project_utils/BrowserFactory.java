@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserFactory {
 		
- public WebDriver driver;
+ public static WebDriver driver;
  
 public void Open_Browser(String BrowserName)
 {
